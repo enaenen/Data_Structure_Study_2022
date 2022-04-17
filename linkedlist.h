@@ -1,6 +1,7 @@
 #ifndef _LINKEDLIST_
 #define _LINKEDLIST_
-
+#include <stdlib.h>
+#include <stdio.h>
 typedef struct ListNodeType
 {
 	int data;
@@ -9,8 +10,8 @@ typedef struct ListNodeType
 
 typedef struct LinkedListType
 {
-	int currentElementCount;	// ÇöÀç ÀúÀåµÈ ¿ø¼ÒÀÇ °³¼ö
-	ListNode headerNode;		// Çì´õ ³ëµå(Header Node)
+	int currentElementCount;	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	ListNode headerNode;		// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½(Header Node)
 } LinkedList;
 
 LinkedList* createLinkedList();
