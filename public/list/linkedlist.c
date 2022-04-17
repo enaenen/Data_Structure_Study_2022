@@ -6,7 +6,7 @@
 /*   By: wchae <wchae@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/15 16:03:27 by wchae             #+#    #+#             */
-/*   Updated: 2022/04/15 21:05:16 by wchae            ###   ########.fr       */
+/*   Updated: 2022/04/17 11:42:12 by wchae            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -125,7 +125,7 @@ void deleteLinkedList(LinkedList* pList)
 	free(pList);
 }
 
-void displayAllLinkedList(LinkedList* pList)
+void displayLinkedList(LinkedList* pList)
 {
 	ListNode	*node;
 	node = pList->headerNode.pLink;
